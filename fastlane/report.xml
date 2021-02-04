@@ -5,7 +5,47 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000281">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000254">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: Switch to pod_install lane" time="0.000255">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: Switch to build lane" time="0.000247">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: build_ios_app" time="18.061176">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: Switch to generate_plist lane" time="0.000196">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: ipa_install_plist_generate" time="0.000507">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: Switch to qr_code lane" time="0.000154">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: Switch to wechat_notify lane" time="0.000154">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: ding_talk_msg_push" time="0.101926">
         
       </testcase>
     

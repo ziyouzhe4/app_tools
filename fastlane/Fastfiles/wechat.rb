@@ -1,5 +1,5 @@
 
-lane :wechat do |params|
+lane :wechat_notify do |params|
 
   webhook_url = params[:webhook_url]
   type = params[:type].to_sym

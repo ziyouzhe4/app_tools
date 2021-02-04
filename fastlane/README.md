@@ -20,9 +20,9 @@ or alternatively using `brew install fastlane`
 fastlane qr_code
 ```
 
-### wechat
+### wechat_notify
 ```
-fastlane wechat
+fastlane wechat_notify
 ```
 
 ### generate_plist
