@@ -1,0 +1,6 @@
+{
+  "ipa_size": 94549,
+  "ipa_download_url": "/Users/majianjie/Desktop/RubyiOS/derived_data/products/output.ipa",
+  "plist_download_url": "/Users/majianjie/Desktop/RubyiOS/derived_data/products/info.plist",
+  "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&margin=10&data=itms_services%3A%2F%2F%3Faction%3Ddownload-mainfest%26url%3D%2FUsers%2Fmajianjie%2FDesktop%2FRubyiOS%2Fderived_data%2Fproducts%2Finfo.plist"
+}
