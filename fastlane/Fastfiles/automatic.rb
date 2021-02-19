@@ -39,15 +39,13 @@ lane :automatic do |option|
 
   ipa_output_path = ret[:ipa_output_path]
   output_directory = ret[:output_directory]
-  # ipa_output_path = '/Users/majianjie/Desktop/test/derived_data/products/output.ipa'
-  # output_directory = '/Users/majianjie/Desktop/test/derived_data/products'
   h[:ipa_size] = file_size(ipa_output_path)
 
   message << "ipa大小： #{h[:ipa_size]}"
 
   # 3.
   # ipa_download_url = upload(file_path: ipa_output_path)
-  ipa_download_url = '/Users/majianjie/Desktop/test/derived_data/products/output.ipa'
+  ipa_download_url = ipa_output_path #'/Users/majianjie/Desktop/test/derived_data/products/output.ipa'
   h[:ipa_download_url] = ipa_download_url
 
   message << "ipa 下载地址： #{ipa_download_url}"
@@ -86,10 +84,7 @@ lane :automatic do |option|
 
   ding_talk_msg_push(token:'f10b683af84f011ed50f329c16ffc5230219734c2b4022d4ff0a48512a063eee', text:message.join("\n"), at_all: true)
 
-
   # deploy
-
-
 
   File.open(output_file,'w+'){|f| f.write(JSON.pretty_generate(h))}
 
