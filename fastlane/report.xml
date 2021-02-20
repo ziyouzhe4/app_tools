@@ -5,47 +5,47 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000331">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000281">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to pod_install lane" time="0.000255">
+      <testcase classname="fastlane.lanes" name="1: Switch to pod_install lane" time="0.000196">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: Switch to build lane" time="0.001116">
+      <testcase classname="fastlane.lanes" name="2: Switch to build lane" time="0.000237">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: build_ios_app" time="18.024701">
+      <testcase classname="fastlane.lanes" name="3: build_ios_app" time="20.613785">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: Switch to generate_plist lane" time="0.000167">
+      <testcase classname="fastlane.lanes" name="4: Switch to generate_plist lane" time="0.000178">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: ipa_install_plist_generate" time="0.000774">
+      <testcase classname="fastlane.lanes" name="5: ipa_install_plist_generate" time="0.000425">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: Switch to qr_code lane" time="0.000205">
+      <testcase classname="fastlane.lanes" name="6: Switch to qr_code lane" time="0.000138">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: Switch to wechat_notify lane" time="0.000136">
+      <testcase classname="fastlane.lanes" name="7: Switch to wechat_notify lane" time="0.000132">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: ding_talk_msg_push" time="0.100623">
+      <testcase classname="fastlane.lanes" name="8: ding_talk_msg_push" time="0.140131">
         
       </testcase>
     
